@@ -1,0 +1,15 @@
+# A dice roller simulator.
+# Authored by Arpita Gupta
+import random
+min=1
+max=6
+again="yes"
+while again=="yes" or "y":
+
+      print("This is a dice roller Simulator")
+      print("Press Enter to roll the dice")
+      x=input()
+      print("The values are")
+      print(random.randint(min,max))
+      print("Do you want to roll the dice again")
+      again=input()
